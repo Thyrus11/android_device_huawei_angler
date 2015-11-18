@@ -33,6 +33,3 @@ PRODUCT_MANUFACTURER := Huawei
 
 $(call inherit-product, device/huawei/angler/device.mk)
 $(call inherit-product-if-exists, vendor/huawei/angler/device-vendor.mk)
-
-PRODUCT_PACKAGES += \
-    Launcher3 \
